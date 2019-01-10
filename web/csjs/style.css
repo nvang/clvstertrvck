@@ -1,0 +1,129 @@
+@font-face {
+    font-family: orator-std;
+    src: url("/media/OratorStd.otf") format("opentype");
+}
+
+html {
+    background: url(/media/bg-y.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 40px;
+
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+header {
+    height: 84px;
+    text-align: right;
+}
+
+
+div.video {
+	width: 100%;
+
+    margin: 40px 0 0 0;
+}
+
+div.album {
+    width: 100%;
+}
+
+@media(min-width: 768px) {
+    div.album, div.video {
+        float: right;
+        width: 700px;
+    }
+}
+
+div.ep {
+    text-align: left;
+    background-color: #FEF381;
+    margin: 40px 0 0 0;
+    padding: 20px 0 0 0;
+    line-height: 40px;
+
+    font-size: 20px;
+    font-family: orator-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+
+    color: #333333;
+}
+
+a:link, a:hover, a:visited {
+	text-decoration: none;
+}
+
+
+
+div.bio {
+    background-color: #000000;
+    color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    max-width: 700px;
+
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+div.nr {
+    font-size: 16px;
+}
+
+.clear {
+    clear: both;
+}
+
+.track {
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.track div {
+    display: inline-block;
+    height: 40px;
+    line-height: 48px;
+    text-align: center;
+
+
+}
+
+.track div.nr {
+    width: 40px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.track div.current {
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+div.total {
+    color: #6f6f6f;
+    font-size: 11px;
+}
+
+div.social {
+    text-align: right;
+}
+
+div.social img {
+    padding: 15px 5px;
+}
+
+.active {
+    background-color: #000;
+    color: #ffffff;
+}
+div.title {
+    padding: 0 4px;
+}

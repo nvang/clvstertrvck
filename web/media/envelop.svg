@@ -1,0 +1,13 @@
+<svg viewBox="0 0 64 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-1" points="0.838964384 2.47145299e-14 62.3088411 0 62.3088411 26.3489275 0.838964384 26.3489275 0.838964384 0"></polygon>
+    </defs>
+    <g id="envelope" stroke="none" fill="none" transform="translate(0.521739, 0.000000)">
+        <path d="M5.75342466e-05,39.7255652 L5.75342466e-05,4.06150725 C10.5590301,13.1606377 20.9120301,22.0826667 31.3985096,31.1197681 C41.8357973,22.2215072 52.2351123,13.3554203 62.8297562,4.32295652 L62.8297562,39.7255652 L5.75342466e-05,39.7255652 Z" id="Fill-1" fill="#FFFFFF" fill-rule="evenodd"></path>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Clip-5"></g>
+        <path d="M31.4141014,26.3489275 C21.2690877,17.6063188 11.1732658,8.90573913 0.838964384,-5.79710145e-05 L62.3088411,-5.79710145e-05 C51.8801836,8.89443478 41.6868411,17.5877681 31.4141014,26.3489275" id="Fill-4" fill="#FFFFFF" fill-rule="evenodd" mask="url(#mask-2)"></path>
+    </g>
+</svg>
